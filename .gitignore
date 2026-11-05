@@ -78,6 +78,14 @@ web_modules/
 .next
 out
 
+# Next.js project output
+/.next/
+.next-dev/
+/out/
+/coverage/
+/.vercel/
+next-env.d.ts
+
 # Nuxt.js build / generate output
 .nuxt
 dist

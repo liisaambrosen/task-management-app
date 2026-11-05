@@ -15,18 +15,18 @@ A task management application built with Next.js 15, TypeScript, tRPC, and TanSt
 
 The versions below are the versions currently resolved in `package-lock.json`:
 
-| Technology | Version |
-| --- | --- |
-| Next.js | 15.5.28 |
-| React / React DOM | 19.1.0 |
-| TypeScript | 5.9.3 |
+| Technology                                                | Version |
+| --------------------------------------------------------- | ------- |
+| Next.js                                                   | 15.5.28 |
+| React / React DOM                                         | 19.1.0  |
+| TypeScript                                                | 5.9.3   |
 | tRPC client, server, and TanStack React Query integration | 11.23.0 |
-| TanStack React Query | 5.105.2 |
-| Zod | 4.6.7 |
-| Jest / Jest jsdom environment | 29.7.0 |
-| React Testing Library | 16.3.3 |
-| Testing Library jest-dom | 7.0.1 |
-| Testing Library user-event | 14.6.8 |
+| TanStack React Query                                      | 5.105.2 |
+| Zod                                                       | 4.6.7   |
+| Jest / Jest jsdom environment                             | 29.7.0  |
+| React Testing Library                                     | 16.3.3  |
+| Testing Library jest-dom                                  | 7.0.1   |
+| Testing Library user-event                                | 14.6.8  |
 
 Tailwind CSS is used for styling.
 
@@ -42,7 +42,6 @@ No environment variables are required for local development.
 From the repository root, install dependencies and start the application:
 
 ```bash
-cd task-manager
 npm install
 npm run dev
 ```
@@ -51,7 +50,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Available Commands
 
-Run these commands from the `task-manager` directory:
+Run these commands from the repository root:
 
 ```bash
 # Start the development server
